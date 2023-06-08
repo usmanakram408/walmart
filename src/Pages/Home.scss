@@ -1,0 +1,85 @@
+.b{
+background-color: #d7d9da;
+border-radius: 10px;
+background-image: url(../Components/Images/Juice-box-mockup-removebg-preview.png);
+background-repeat: no-repeat;
+}
+
+.card {
+    width: 130px;
+    height: 175px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+   
+}
+
+.card-image {
+    // background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.card:hover {
+    transform: scale(0.98);
+}
+
+.category {
+    text-transform: uppercase;
+    // font-size: 0.7em;
+    font-weight: 600;
+    color: black;
+    padding: 10px 7px 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    // padding-top: 20px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://i0.wp.com/demo4.drfuri.com/farmart2/wp-content/uploads/sites/11/2021/05/homepage-new-slider-1.jpg)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

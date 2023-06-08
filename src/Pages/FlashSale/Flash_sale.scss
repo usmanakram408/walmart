@@ -1,0 +1,32 @@
+$brand-color: #546E7A;
+$white: #fff;
+
+
+.splash {
+    background: url(https://i0.wp.com/demo4.drfuri.com/farmart/wp-content/uploads/sites/6/2020/05/flash-sale-img.jpg) bottom center no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+    color: $white;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+    position: relative;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    z-index: 0;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: $brand-color;
+        opacity: 0.5;
+        z-index: -1;
+    }
+}
+
+
+
